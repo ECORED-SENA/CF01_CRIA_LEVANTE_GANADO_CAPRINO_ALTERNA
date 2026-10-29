@@ -133,13 +133,81 @@ export default {
   },
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Definición',
+      termino: 'Balance nutricional',
+      significado: 'suministro de una dieta equilibrada que cubre las necesidades de mantenimiento, crecimiento, reproducción y producción.',
+    },
+    {
+      termino: 'Bienestar animal',
+      significado: 'condiciones de manejo que garantizan alimentación adecuada, agua limpia, instalaciones seguras, atención sanitaria, manejo humanitario y reducción del estrés.',
+    },
+    {
+      termino: 'Bioseguridad',
+      significado: 'medidas de prevención y control sanitario aplicadas para disminuir los riesgos de ingreso y propagación de enfermedades en la explotación.',
+    },
+    {
+      termino: 'Buenas Prácticas Ganaderas (BPG)',
+      significado: 'principios, procedimientos y actividades orientados a garantizar una producción caprina segura, sostenible y eficiente.',
+    },
+    {
+      termino: 'Ensilaje',
+      significado: 'conservación de forrajes con alto contenido de humedad mediante fermentación anaerobia.',
+    },
+    {
+      termino: 'Heno',
+      significado: 'forraje conservado mediante deshidratación hasta alcanzar aproximadamente un 15 % de humedad.',
+    },
+    {
+      termino: 'Infraestructura',
+      significado: 'instalaciones, equipos y obras necesarias para el funcionamiento de la explotación caprina, como apriscos, corrales, comederos, bebederos y bodegas.',
+    },
+    {
+      termino: 'Mejoramiento genético',
+      significado: 'proceso de selección y cruzamiento de animales superiores para incrementar la productividad y obtener mejores características.',
+    },
+    {
+      termino: 'Requerimientos nutricionales',
+      significado: 'cantidad de nutrientes que un caprino necesita diariamente para mantener sus funciones vitales, crecer, reproducirse y producir leche o carne.',
+    },
+    {
+      termino: 'Sistema de producción caprina',
+      significado: 'conjunto organizado de recursos que interactúan para desarrollar eficientemente la explotación de cabras.',
+    },
+    {
+      termino: 'Suplementación nutricional',
+      significado: 'práctica destinada a complementar la dieta cuando los forrajes disponibles no aportan suficientes nutrientes.',
+    },
+    {
+      termino: 'Trastornos nutricionales',
+      significado: 'alteraciones ocasionadas por una alimentación insuficiente, excesiva o desequilibrada que afectan la salud, el bienestar y el desempeño productivo.',
     },
   ],
   referencias: [
     {
-      referencia: '',
+      referencia: 'Food and Agriculture Organization of the United Nations. (2012). Phenotypic characterization of animal genetic resources. FAO.',
+      link: '',
+    },
+    {
+      referencia: 'Food and Agriculture Organization of the United Nations. (2013). Good practices for biosecurity in the pig sector: Issues and options in developing and transition countries. FAO.',
+      link: '',
+    },
+    {
+      referencia: 'Instituto Colombiano Agropecuario. (2020). Buenas prácticas ganaderas en la producción primaria. ICA.',
+      link: '',
+    },
+    {
+      referencia: 'National Research Council. (2007). Nutrient requirements of small ruminants: Sheep, goats, cervids, and New World camelids. The National Academies Press.',
+      link: '',
+    },
+    {
+      referencia: 'Smith, M. C., & Sherman, D. M. (2009). Goat medicine (2nd ed.). Wiley-Blackwell.',
+      link: '',
+    },
+    {
+      referencia: 'Solaiman, S. G. (Ed.). (2010). Goat science and production. Wiley-Blackwell.',
+      link: '',
+    },
+    {
+      referencia: 'Underwood, W. J., Blauwiekel, R., Delano, M. L., Gillesby, R., Mischler, S. A., & Schoell, A. (2015). Biology and diseases of ruminants (sheep, goats, and cattle). En J. G. Fox et al. (Eds.), Laboratory animal medicine (3rd ed., pp. 623–694). Academic Press.',
       link: '',
     },
   ],
@@ -149,13 +217,9 @@ export default {
       autores: [
         {
           nombre: 'Claudia Johanna Gómez Pérez',
-          cargo: 'Líder del Ecosistema',
+          cargo:
+            'Profesional 06 - Responsable Ecosistema Virtual de Recursos Educativos Digitales',
           centro: 'Centro Agroturístico - Regional Santander',
-        },
-        {
-          nombre: 'Olga Constanza Bermúdez',
-          cargo: 'Responsable de línea de producción Huila',
-          centro: 'Dirección General',
         },
       ],
     },
@@ -163,9 +227,40 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: '',
-          cargo: '',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Ana Roció Rosero Cortes',
+          cargo: 'Experta temática',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Leonardo Camacho Acevedo',
+          cargo: 'Experto temático',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Alba Mireya Orjuela Toro',
+          cargo: 'Experta temática',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Juan Pablo Cristancho Cubillos',
+          cargo: 'Experto temático',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'María Angelica Gómez Morales',
+          cargo: 'Experta temática',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Paula Marcela Vidal Quintero',
+          cargo: 'Evaluadora instruccional',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
       ],
     },
@@ -173,20 +268,50 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: '',
+          nombre: 'Jorge David Barbosa Losada',
           cargo: 'Diseñador de contenidos digitales',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
-          nombre: '',
+          nombre: 'Cristian Fernando Martínez Sánchez',
           cargo: 'Desarrollador <i>full stack</i>',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
-          nombre: '',
-          cargo: '',
+          nombre: 'Alejandro Delgado Acosta',
+          cargo: 'Intérprete lenguaje de señas',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Cristhian Giovanni Gordillo Segura',
+          cargo: 'Intérprete lenguaje de señas',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Juan Pablo Rojas Polania',
+          cargo: 'Animador y productor multimedia',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Carlos Eduardo Garavito Parada',
+          cargo: 'Animador y productor multimedia',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'María Carolina Tamayo López',
+          cargo: 'Locución',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'German Acosta Ramos',
+          cargo: 'Locución',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
@@ -196,13 +321,25 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: '',
+          nombre: 'Ricardo Oliveros Zambrano ',
           cargo: 'Validador de recursos educativos digitales',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
-          nombre: '',
+          nombre: 'Aixa Natalia Sendoya Fernández',
+          cargo: 'Validador de recursos educativos digitales',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Daniel Ricardo Mutis Gómez',
+          cargo: 'Evaluador para contenidos inclusivos y accesibles',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Anyerson Wilfredo Pizo Ossa',
           cargo: 'Evaluador para contenidos inclusivos y accesibles',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
