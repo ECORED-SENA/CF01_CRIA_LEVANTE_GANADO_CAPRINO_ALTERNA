@@ -1194,7 +1194,7 @@
       p.mb-5 A continuación, se presenta un video que explica las Cinco Libertades del bienestar animal y su aplicación en la producción caprina, destacando las principales prácticas que contribuyen a garantizar condiciones adecuadas de alimentación, alojamiento, sanidad, comportamiento y manejo.
       figure(data-aos="zoom-in").mb-5
         .video
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/fuKjgV6NwCg?si=oRK6OJqf9gRRWtK8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
         figcaption Video. Las cinco libertades del bienestar animal en la producción caprina
       .titulo-tercer-nivel.mb-5(data-aos="fade-right")
         img.titulo-tercer-nivel__icon(src='@/assets/curso/temas/t1/img2.svg')
